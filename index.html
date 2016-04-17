@@ -2,11 +2,117 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и Видео</a>
+            </li>
+            <li>
+              <a href="index.html"><img class="top-logo" src="img/top-logo.png" alt="City of Sedona"></a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="index-logo">
+        <img src="img/index-logo.png" width="368" height="204" alt="SEDONA">
+      </div>
+      <section class="features">
+        <div class="features-discription">
+            <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+        </div>
+        <div class="features-reasons">
+            <p>Рассмотрим 5 причин, по которым Седона круче,чем Гранд Каньен!</p>
+        </div>  
+        <div class="main-reason">
+          <b class="reason-name">Настоящий городок</b>
+          <p>Седона - не аттракцион для туристов. Там течет своя жизнь</p>
+            <div class="reason-logo">
+             <img src="#">   
+            </div>
+        </div>
+        <div class="some-reason">
+          <b class="some-name">Жилье</b>
+          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </div>
+        <div class="some-reason">
+          <b class="some-name">Еда</b>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </div>
+        <div class="some-reason">
+          <b class="some-name">Сувениры</b>
+          <p>Не только Китайского, но местного производства!</p>
+        </div>
+        <div class="main-reason">
+          <b class="reason-name">Там есть мост дьявола</b>
+          <p>Да, по нему можно пройти! Если вы конечно осмелитесь</p>
+            <div class="reason-logo">
+             <img src="#">   
+            </div>
+        </div>
+         <div class="last-reason">
+          <b class="last-name">Небольшая площадь</b>
+          <p>Все достопремичательности находятс очень близко</p>
+        </div>
+        <div class="last-reason">
+          <b class="last-name">Красивая дорога</b>
+          <p>Ехать из Лас-Вегаса в Седону совсем не скучно!</p>
+        </div>
+        <div class="last-reason">
+          <b class="last-name">Мало туристов</b>
+          <p>Большенсто едет в Гранд Каньен и толпится там</p>
+        </div>
+      </section>
+      <div class="search-content">
+        <div class="search-box">
+          <h2 class="search-title">Заинтересовались?</h2>
+          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+              <div class="form-title">
+                  <h2>Поиск гостиницы в Седоне</h2>
+              </div>
+            <label for="date-in">Дата вьезда:</label>
+              <input type="date" name="date-in" value="" placeholder="24 апреля 2016">
+            <label for="date-out">Дата выезда:</label>
+              <input type="date" name="date-out" value="" placeholder="4 июля 2016">
+            <label for="man-in">Взрослые:</label>
+              <span class="btn-minus"><a href="#">-</a></span><input type="number" name="man-in" value="" placeholder="2"><span class="btn-plus"><a href="#">+</a></span>
+            <label for="child-in">Дети:</label>
+              <span class="btn-minus"><a href="#">-</a></span><input type="number" name="child-in" value="" placeholder="0"><span class="btn-plus"><a href="#">+</a></span>
+            <button class="btn" type="submit">Найти</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          <a href="#">#Visitsedona</a>
+        </section>
+        <section class="footer-social">
+          <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-ytb" href="#">Ютьюб</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Website by:<a class="btn" href="https://htmlacademy.ru">HTML Academy</a></p>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
