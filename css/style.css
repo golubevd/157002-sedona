@@ -1,0 +1,146 @@
+body {
+    font-family: "PT Sans ", Arial, sans-serif;
+}
+
+.main-navigation li {
+    font-family: "PT Sans Bold";
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.features-discription h1 {
+    font-family: "PT Sans Bold";
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.features-reasons p {
+    font-family: "PT Sans Regular";
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.appointment-form {
+    font-family: "PT Sans Bold";
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.form-title h2 {
+    font-family: "PT Sans Bold";
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn {
+   font-family: "PT Sans Bold";
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: bold;
+   color: #ffffff; 
+}
+
+.footer-contacts {
+    font-family: "PT Sans Bold";
+    font-size: 21px;
+    line-height: auto;
+    font-weight: bold;
+}
+
+.footer-copyright {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 26px; 
+}
+
+.point b {
+   font-family: "PT Sans Bold";
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: bold;
+   color: #ffffff; 
+}
+
+.point label {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff; 
+}
+
+.day-cost b {
+   font-family: "PT Sans Bold";
+   font-size: 16px;
+   line-height: auto;
+   font-weight: bold; 
+   color: #ffffff;
+}
+
+.cost-range {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff; 
+}
+
+.btn-cost {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff; 
+}
+
+.found-sum b {
+   font-family: "PT Sans Bold";
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: bold; 
+}
+
+.found-sort p {
+   font-family: "PT Sans Regular";
+   font-size: 12px;
+   line-height: 18px;
+}
+
+.found-sort li {
+   font-family: "PT Sans Regular";
+   font-size: 12px;
+   line-height: 18px;
+   color: #81b3d2;
+}
+
+.result-title p {
+   font-family: "PT Sans Bold";
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: bold;
+}
+
+.typen-cost p {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 21px; 
+   color: #333333;
+}
+
+.result-found a {
+   font-family: "PT Sans Bold";
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: bold; 
+   color: #ffffff;
+}
+
+.number-raiting {
+   font-family: "PT Sans Regular";
+   font-size: 14px;
+   line-height: 21px; 
+   color: #666666; 
+}
