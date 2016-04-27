@@ -1,19 +1,18 @@
 html,
 body {
+    font-family: "PT Sans", Arial, sans-serif;
     min-width: 1280px;
     margin: 0;
     padding: 0;
+    background: #f2f2f2;
 }
 
 .index-bg {
-    font-family: "PT Sans", Arial, sans-serif;
-    background: #f2f2f2 url("../img/main-bg.jpg") no-repeat 50% 1px;
+    background: #ffffff url("../img/main-bg.jpg") no-repeat 50% 1px;
 }
 
 .catalog-bg {
-    font-family: "PT Sans", Arial, sans-serif;
-    background: #f2f2f2 url("../img/catalog-tbg.jpg") no-repeat 50% 1px;
-    
+    background: #ffffff url("../img/catalog-tbg.jpg") no-repeat 50% 1px;
 }
 
 .clearfix::after {
@@ -30,13 +29,34 @@ body {
 }
 
 .main-header {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .main-navigation {
     min-height: 60px;
     margin-top: 0px;
     background: #ffffff;
+    
+}
+
+.navigator-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation li {
+    display: inline;
+    width: 115px;
+    margin-left: 70px;
+    margin-right: 40px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.main-navigation li:nth-child(3) {
+    margin-left: 120px;
+    margin-right: 120px;    
 }
 
 .index-logo {
@@ -44,10 +64,40 @@ body {
     min-height: 352px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 80px;
     margin-bottom: 160px;
+    position: relative;
+    text-indent: -9999px;
 }
 
-.white-bg {
+.logo-title,
+.logo-name,
+.logo-description {
+    background: url("../img/main-logon.png") no-repeat 50% 1px;
+}
+
+.logo-title {
+    width: 256px;
+    height: 86px;
+    margin: 0 auto 50px;
+    
+}
+
+.logo-name {
+    width: 458px;
+    height: 82px;
+    margin: 0 auto 53px;
+    background-position: 0px -138px;
+}
+
+.logo-description {
+    width: 300px;
+    height: 90px;
+    margin: 0 auto 56px;
+    background-position: -77px -272px;
+}
+
+.features {
     background: #ffffff;
 }
 
@@ -58,7 +108,7 @@ body {
     margin-bottom: 50px;
 }
 
-.reason-one {
+.reason-top {
     float: left;
     width: 280px;
     min-height: 200px;
@@ -69,11 +119,11 @@ body {
     padding-right: 60px;
 }
 
-.rlogo-one {
+.rlogo-top {
     float: right;
 }
 
-.rlogo-two {
+.rlogo-botom {
     float: left;
 }
 
@@ -89,7 +139,7 @@ body {
     margin-right: 0;
 }
 
-.reason-two {
+.reason-botom {
     float: right;
     width: 300px;
     min-height: 200px;
@@ -113,7 +163,7 @@ body {
     margin-right: 0;
 }
 
-.gray-bg {
+.reason-bg {
     background: #eeeeee;
 }
 
@@ -155,6 +205,7 @@ label {
     margin-bottom: 30px;
     margin-right: 5px;
 }
+
 input[type="date"] {
     width: 345px;
     min-height: 40px;
@@ -197,18 +248,17 @@ input[type="date"] {
 
 .point {
     float: left;
-    width: 240px;
+    border: 0;
+    width: 140px;
     line-height: 35px;
+    margin-top: 30px;
     margin-left: 30px;
-}
-
-.point li {
-    list-style: none;
 }
 
 .day-cost {
     float:right;
     width: 330px;
+    border: 0;
     margin-right: 70px;
     margin-top: 30px;
 }
@@ -246,9 +296,20 @@ input[type="date"] {
 }
 
 .found-sort {
+    width: 390px;
     float: left;
     margin-left: 60px;
-    padding-top: 35px;
+    margin-top: 35px;
+}
+
+.fond-title {
+    float: left;
+}
+
+.found-sort li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
 }
 
 .sort-btn {
@@ -353,7 +414,7 @@ input[type="date"] {
     font-weight: bold;
 }
 
-.features-discription h1 {
+.features-discription h2 {
     font-family: "PT Sans Bold";
     font-size: 21px;
     line-height: 26px;
@@ -405,7 +466,7 @@ input[type="date"] {
    line-height: 26px; 
 }
 
-.point b {
+.point legend {
    font-family: "PT Sans Bold";
    font-size: 16px;
    line-height: 21px;
@@ -420,7 +481,7 @@ input[type="date"] {
    color: #ffffff; 
 }
 
-.day-cost b {
+.day-cost legend {
    font-family: "PT Sans Bold";
    font-size: 16px;
    line-height: auto;
@@ -442,14 +503,14 @@ input[type="date"] {
    color: #ffffff; 
 }
 
-.found-sum b {
+.found-sum span {
    font-family: "PT Sans Bold";
    font-size: 21px;
    line-height: 26px;
    font-weight: bold; 
 }
 
-.found-sort p {
+.fond-title {
    font-family: "PT Sans Regular";
    font-size: 12px;
    line-height: 18px;
