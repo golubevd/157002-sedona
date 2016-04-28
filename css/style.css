@@ -1,6 +1,411 @@
+html,
 body {
-    font-family: "PT Sans ", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
 }
+
+.index-bg {
+    background: #ffffff url("../img/main-bg.jpg") no-repeat 50% 1px;
+}
+
+.catalog-bg {
+    background: #ffffff url("../img/catalog-tbg.jpg") no-repeat 50% 1px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width:1200px;
+    margin: 40px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-header {
+    margin-bottom: 0px;
+}
+
+.main-navigation {
+    min-height: 60px;
+    margin-top: 0px;
+    background: #ffffff;
+    
+}
+
+.navigator-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation li {
+    display: inline;
+    width: 115px;
+    margin-left: 70px;
+    margin-right: 40px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.main-navigation li:nth-child(3) {
+    margin-left: 120px;
+    margin-right: 120px;    
+}
+
+.index-logo {
+    width: 458px;
+    min-height: 352px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    margin-bottom: 160px;
+    position: relative;
+    text-indent: -9999px;
+}
+
+.logo-title,
+.logo-name,
+.logo-description {
+    background: url("../img/main-logon.png") no-repeat 50% 1px;
+}
+
+.logo-title {
+    width: 256px;
+    height: 86px;
+    margin: 0 auto 50px;
+    
+}
+
+.logo-name {
+    width: 458px;
+    height: 82px;
+    margin: 0 auto 53px;
+    background-position: 0px -138px;
+}
+
+.logo-description {
+    width: 300px;
+    height: 90px;
+    margin: 0 auto 56px;
+    background-position: -77px -272px;
+}
+
+.features {
+    background: #ffffff;
+}
+
+.features-discription {
+    width: 575px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.reason-top {
+    float: left;
+    width: 280px;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 56px;
+    background: #81b3d2;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.rlogo-top {
+    float: right;
+}
+
+.rlogo-botom {
+    float: left;
+}
+
+.some-reason {
+    float: left;
+    width: 400px;
+    min-height: 165px;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.some-reason:last-child {
+    margin-right: 0;
+}
+
+.reason-botom {
+    float: right;
+    width: 300px;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 56px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #81b3d2;
+}
+
+.last-reason {
+    float: left;
+    width: 400px;
+    min-height: 210px;
+    padding-top: 50px;
+    text-align: center;
+    background: #eeeeee;
+}
+
+.last-reason:last-child {
+    margin-right: 0;
+}
+
+.reason-bg {
+    background: #eeeeee;
+}
+
+.search-content {
+    background: #ffffff url("../img/botom-bg.jpg") no-repeat  1px;
+    background-position: right bottom;
+}
+
+.search-box {
+    width: 576px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.form-title {
+    width: 570px;
+    min-height: 75px;
+    margin-top: 60px;
+    padding-top: 15px;
+    background: #766357;
+    color: #000000;
+}
+
+.appointment-form {
+    width: 450px;
+    min-height: 340px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: #ffffff;
+    margin-bottom: 80px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+input[type="date"] {
+    width: 345px;
+    min-height: 40px;
+}
+
+.footer-box {
+    min-height: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #ffffff;
+    
+}
+
+.footer-contacts {
+    float: left;
+    width: 240px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.footer-social {
+    float: left;
+    width: 400px;
+    padding-left: 88px;
+    text-align: center;
+}
+
+.footer-copyright {
+    float: right;
+    width: 240px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+/*Елементы страицы catalog*/
+
+.search-form {
+    min-height: 220px;
+}
+
+.point {
+    float: left;
+    border: 0;
+    width: 140px;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.day-cost {
+    float:right;
+    width: 330px;
+    border: 0;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.cost-range {
+    width: 320px;
+    margin-top: 15px;
+    border: #ffffff solid 2px;
+}
+
+.min-cost {
+    float: left;
+}
+
+.max-cost {
+    float: right;
+}
+
+.btn-cost {
+    width: 150px;
+    height: 40px;
+    margin-left: 90px;
+}
+
+.found {
+    min-height: 90px;
+    background: #ffffff;
+    border-bottom: #e5e5e5 solid 1px;
+}
+
+.found-sum {
+    float: left;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+.found-sort {
+    width: 390px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+.fond-title {
+    float: left;
+}
+
+.found-sort li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.sort-btn {
+    float: right;
+    padding-right: 70px;
+    padding-top: 35px;
+}
+
+.mini-image {
+    float: left;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.show-result {
+    min-height: 150px;
+    background: #ffffff;
+    border-bottom: #e5e5e5 solid 1px;
+}
+
+.result-found {
+    margin-bottom: 30px;
+}
+
+.result-title {
+    float: left;
+    width: 325px;
+    margin-left: 30px;
+    margin-top: 27px;
+    min-height: 90px;
+}
+
+.info {
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    background: #81b3d2;
+}
+
+.book-room {
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #766357;
+}
+
+.typen-cost {
+    margin-right: 0px;
+}
+
+.type {
+    float: left;
+    width: 110px;
+}
+
+.total-from {
+    float: left;
+    margin-left: 10px;
+}
+
+.more-block {
+    margin-top: 10px;
+}
+
+.count-block  {
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.star-count {
+    text-align: justify;
+}
+
+.number-raiting {
+    width: 140px;
+    height: 20px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #f2f2f2;
+    color: #666666;
+}
+
+.title {
+    margin-bottom: 5px;
+}
+/* Шрифты*/
 
 .main-navigation li {
     font-family: "PT Sans Bold";
@@ -9,18 +414,20 @@ body {
     font-weight: bold;
 }
 
-.features-discription h1 {
+.features-discription h2 {
     font-family: "PT Sans Bold";
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
+    text-align: center;
 }
 
-.features-reasons p {
+.features-discription p {
     font-family: "PT Sans Regular";
     font-size: 14px;
     line-height: 26px;
     color: #333333;
+    text-align: center;
 }
 
 .appointment-form {
@@ -59,7 +466,7 @@ body {
    line-height: 26px; 
 }
 
-.point b {
+.point legend {
    font-family: "PT Sans Bold";
    font-size: 16px;
    line-height: 21px;
@@ -74,7 +481,7 @@ body {
    color: #ffffff; 
 }
 
-.day-cost b {
+.day-cost legend {
    font-family: "PT Sans Bold";
    font-size: 16px;
    line-height: auto;
@@ -96,34 +503,34 @@ body {
    color: #ffffff; 
 }
 
-.found-sum b {
+.found-sum span {
    font-family: "PT Sans Bold";
    font-size: 21px;
    line-height: 26px;
    font-weight: bold; 
 }
 
-.found-sort p {
+.fond-title {
    font-family: "PT Sans Regular";
    font-size: 12px;
    line-height: 18px;
 }
 
-.found-sort li {
+.found-sort a {
    font-family: "PT Sans Regular";
    font-size: 12px;
    line-height: 18px;
    color: #81b3d2;
 }
 
-.result-title p {
+.title {
    font-family: "PT Sans Bold";
    font-size: 21px;
    line-height: 26px;
    font-weight: bold;
 }
 
-.typen-cost p {
+.type, .total-from {
    font-family: "PT Sans Regular";
    font-size: 14px;
    line-height: 21px; 
@@ -144,3 +551,11 @@ body {
    line-height: 21px; 
    color: #666666; 
 }
+
+/*fffffffffffffffffffffffffffffff*/
+ .outline {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 3px solid black;
+  background: rgba(255, 255, 0, 0.2);
+}  
