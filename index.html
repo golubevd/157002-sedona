@@ -12,9 +12,9 @@
           <header class="main-header">
               <nav class="main-navigation">
                   <ul>
-                      <li><a href="#" class="active-menu">Информация</a></li>
+                      <li><a href="#">Информация</a></li>
                       <li><a href="#">Фото и Видео</a></li>
-                      <li><a href="index.html"><img class="top-logo" src="img/top-logo.png" width="138" height="70" alt="City of Sedona"></a></li>
+                      <li><a href="index.html" class="top-logo"><img  src="img/top-logo.png" width="138" height="70" alt="City of Sedona"></a></li>
                       <li><a href="#">Карта штата</a></li>
                       <li><a href="catalog.html">Гостиницы</a></li>
                   </ul>
@@ -100,30 +100,30 @@
                     <div class="form-title clearfix">
                         <h2>Поиск гостиницы в Седоне</h2>
                     </div>
-                    <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-                        <fieldset class="clearfix">
+                    <form class="appointment-form" action="https://echo.htmlacademy.ru" method="get">
+                        <fieldset title="Укажите дату вьезда" class="clearfix chose-date">
                             <label for="date-in">Дата вьезда:</label>
-                            <input type="date" name="date-in" value="" placeholder="24 апреля 2016">
+                            <input type="text" name="date-in" placeholder="24 апреля 2014" required>
                         </fieldset>
-                        <fieldset class="clearfix">
+                        <fieldset title="Укажите дату вьезда" class="clearfix chose-date">
                             <label for="date-out">Дата выезда:</label>
-                            <input type="date" name="date-out" value="" placeholder="4 июля 2016">
+                            <input type="text" name="date-out"  placeholder="4 июля 2014" required>
                         </fieldset>  
-                        <fieldset class="cearfix">
+                        <fieldset class="cearfix man-child">
                             <fieldset class="man">
                                 <label for="man-in">Взрослые:</label>
-                                <input type="btn-minus" value="-" id="man-remove" name="man-remove">
-                                <input type="number" name="man-in" value="" placeholder="2">
-                                <input type="btn-plus" value="+" id="man-add" name="man-add">
+                                <input type="button" value="-" id="man-remove" name="man-remove">
+                                <input type="text" id="man-in" value="2">
+                                <input type="button" value="+" id="man-add" name="man-add">
                             </fieldset> 
                             <fieldset class="child">
                                 <label for="child-in">Дети:</label>
-                                <input type="btn-minus" value="-" id="man-remove" name="man-remove">
-                                <input type="number" name="child-in" value="" placeholder="0">
-                                <input type="btn-plus" value="+" id="man-add" name="man-add">
-                            </fieldset>  
-                            <button class="btn" type="submit">Найти</button>
-                      </fieldset>  
+                                <input type="button" value="-" id="child-remove" name="child-remove">
+                                <input type="text" id="child-in" value="0">
+                                <input type="button" value="+" id="child-add" name="child-add">
+                            </fieldset>                              
+                       </fieldset>  
+                        <input type="submit" name="button-search" value="Найти">
                     </form>
                 </div>
             </div>
