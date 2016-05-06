@@ -56,7 +56,7 @@ body {
 
 .main-header ul a {
     position: relative;
-    color: #000;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -345,23 +345,19 @@ body {
     font-weight: bold;
 }
 
-.form-title {
-    width: 570px;
-    min-height: 75px;
-    margin-top: 60px;
-    padding-top: 15px;
-    background: #766357;
-    color: #000000;
-}
-
  /*-----------Форма поиска------------------*/ 
 
 .appointment-form {
+    display: none;
     width: 514px;
     min-height: 340px;
     padding-top: 60px;
     padding-left: 56px;
     background: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 80px;
     box-shadow: 0 7px 15px 0 rgba(0,0,0,.15);
@@ -538,7 +534,37 @@ body {
     color: #ffffff;
     color: rgba(255,255,255,.3);
 }
-     
+
+.show-content {
+    display: block;
+}
+
+.form-title {
+    width: 570px;
+    min-height: 75px;
+    margin-top: 60px;
+    padding-top: 15px;
+    background: #766357;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-title h2 {
+    font-family: "PT Sans";
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.toggle-button:hover {
+    background:#604e43;
+}
+
+.toggle-button:active {
+    background:#503e33;
+}
+   
  /*-----------Футер------------------*/   
 
 .footer-box {
@@ -683,11 +709,34 @@ body {
     margin-right: 10px;
 }
 
+.point legend {
+   font-family: "PT Sans";
+   font-size: 16px;
+   line-height: 21px;
+   font-weight: bold;
+   color: #ffffff; 
+}
+
+.point label {
+   font-family: "PT Sans";
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff; 
+}
+
 .day-cost {
     float:right;
     width: 330px;
     border: 0;
     margin-right: 70px;
+}
+
+.day-cost legend {
+   font-family: "PT Sans";
+   font-size: 16px;
+   line-height: auto;
+   font-weight: bold; 
+   color: #ffffff;
 }
 
 .filter-range {
@@ -811,6 +860,18 @@ body {
     min-height: 90px;
     background: #ffffff;
     border-bottom: #e5e5e5 solid 1px;
+}
+
+.found-sum {
+    float: left;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+.found-sum span {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: bold; 
 }
 
 .found-sort {
@@ -1017,6 +1078,14 @@ body {
     margin-left: 10px;
 }
 
+
+.type, .total-from {
+   font-family: "PT Sans";
+   font-size: 14px;
+   line-height: 21px; 
+   color: #333333;
+}
+
 .more-block {
     margin-top: 10px;
 }
@@ -1049,97 +1118,15 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     background: #f2f2f2;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 21px; 
+    color: #666666; 
     color: #666666;
 }
 
 .title {
     margin-bottom: 5px;
-}
-/* Шрифты*/
-.appointment-form {
-    font-family: "PT Sans Bold";
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-}
-
-.form-title h2 {
-    font-family: "PT Sans Bold";
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.btn {
-   font-family: "PT Sans Bold";
-   font-size: 21px;
-   line-height: 26px;
-   font-weight: bold;
-   color: #ffffff; 
-}
-
-.point legend {
-   font-family: "PT Sans Bold";
-   font-size: 16px;
-   line-height: 21px;
-   font-weight: bold;
-   color: #ffffff; 
-}
-
-.point label {
-   font-family: "PT Sans Regular";
-   font-size: 14px;
-   line-height: 21px;
-   color: #ffffff; 
-}
-
-.day-cost legend {
-   font-family: "PT Sans Bold";
-   font-size: 16px;
-   line-height: auto;
-   font-weight: bold; 
-   color: #ffffff;
-}
-
-.cost-range {
-   font-family: "PT Sans Regular";
-   font-size: 14px;
-   line-height: 21px;
-   color: #ffffff; 
-}
-
-.btn-cost {
-   font-family: "PT Sans Regular";
-   font-size: 14px;
-   line-height: 21px;
-   color: #ffffff; 
-}
-
-.found-sum {
-    float: left;
-    margin-left: 70px;
-    padding-top: 35px;
-}
-
-.found-sum span {
-   font-size: 21px;
-   line-height: 26px;
-   font-weight: bold; 
-}
-
-.type, .total-from {
-   font-family: "PT Sans Regular";
-   font-size: 14px;
-   line-height: 21px; 
-   color: #333333;
-}
-
-.number-raiting {
-   font-family: "PT Sans Regular";
-   font-size: 14px;
-   line-height: 21px; 
-   color: #666666; 
 }
 
 /*fffffffffffffffffffffffffffffff*/
