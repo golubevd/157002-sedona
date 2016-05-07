@@ -37,50 +37,59 @@ body {
     background: #ffffff;
 }
 
-.main-navigation ul {
+.top-menu {
     list-style: none;
+    height: 55px;
     font-size: 0;
     background: #fff;
     padding: 0;
     margin: 0;
 }
 
-.main-navigation  li {
+.top-menu  li {
     display: inline-block;
-    width: 240px;
-    height: 55px;
     font: 700 14px/3.93 "PT Sans", sans-serif;
     text-align: center;
     vertical-align:top;
+    margin-right: 135px;
+    white-space: nowrap;
 }
 
-.main-navigation  a {
+.top-menu li:first-child {
+    margin-left: 70px;
+}
+
+.top-menu li:last-child {
+    margin-right: 70px;
+}
+
+.top-menu  a {
     position: relative;
     color: #000000;
     text-decoration: none;
 }
 
-.main-navigation a:hover {
+.top-menu a:hover {
     color: #81b3d2;
 }
 
-.main-navigation a:active {
+.top-menu a:active {
     color: #766357;
     opacity: 0.3;
 }
 
-.main-navigation a.top-logo:active {
+.top-menu a.top-logo:active {
     opacity: 1;
 }
 
-.main-navigation .active-menu {
+.top-menu .active-menu {
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
     color: #766357;
 }
 
-.main-navigation .active-menu:hover {
+.top-menu .active-menu:hover {
     color: #604e43;
 }
 
@@ -89,7 +98,7 @@ body {
     opacity: 0.3;
 }
 
-.main-navigation img {
+.top-menu img {
     position: relative;
     z-index: 1000;
 }
@@ -323,27 +332,44 @@ body {
     background: #eeeeee;
 }
 
-.search-content {
-    background: #ffffff url("../img/botom-bg.jpg") no-repeat  1px;
-    background-position: right bottom;
+ .search-title {
+     padding-top: 50px;
+     text-align: center;
+     padding-bottom: 50px;
 }
 
-.search-box {
-    width: 576px;
-    height: 752px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-}
-
-.search-title {
+.search-title h2{
     font-size: 30px;
     line-height: 24px;
     font-weight: bold;
 }
+
+.search-content {
+    position: relative;
+}
+
+.search-box {
+    width: 576px;
+    height: 560px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    z-index: 100;
+    
+}
+
+ .map {
+     height: 560px;
+     width: 1200px;
+     background: url("../img/botom-bg.jpg") no-repeat 50% ;
+     position: absolute;
+     background-position: bottom right;
+     top: 10px;
+     z-index: 0;
+    }    
 
  /*-----------Форма поиска------------------*/ 
 
@@ -537,12 +563,17 @@ body {
 
 .show-content {
     display: block;
+    animation: scale-form 0.6s;
+}
+
+@keyframes scale-form {
+0% { transform: scale(0); }
+100% { transform: scale(1); }
 }
 
 .form-title {
     width: 570px;
     min-height: 75px;
-    margin-top: 60px;
     padding-top: 15px;
     background: #766357;
     color: #000000;
@@ -564,8 +595,17 @@ body {
 .toggle-button:active {
     background:#503e33;
 }
-   
+
+.form-title h2:active {
+    color: #ffffff;
+    color: rgba(255,255,255,.3);
+}
+
  /*-----------Футер------------------*/   
+
+.main-footer {
+    position: relative;
+}
 
 .footer-box {
     min-height: 40px;
@@ -702,7 +742,7 @@ body {
     line-height: 35px;
     margin-top: 30px;
     margin-left: 60px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .point legend {
@@ -1076,10 +1116,8 @@ body {
 
 .info:active {
     background: #5496bd;
-}
-
-.info span:active {
-    opacity: 0.3;
+    color: #ffffff;
+    color: rgba(255,255,255,.3);
 }
 
 .book-room {
@@ -1099,10 +1137,8 @@ body {
 
 .book-room:active {
     background:#503e33;
-}
-
-.book-room span:active {
-    opacity: 0.3;
+    color: #ffffff;
+    color: rgba(255,255,255,.3);
 }
 
 .more-block a {
