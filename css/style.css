@@ -51,16 +51,25 @@ body {
     font: 700 14px/3.93 "PT Sans", sans-serif;
     text-align: center;
     vertical-align:top;
-    margin-right: 135px;
     white-space: nowrap;
 }
 
 .top-menu li:first-child {
-    margin-left: 70px;
+    margin-left: 71px;
+    margin-right: 151px;
+}
+
+.top-menu li:nth-child(2) {
+    margin-right: 122px;
+}
+
+.top-menu li:nth-child(3) {
+    margin-right: 129px;
 }
 
 .top-menu li:last-child {
-    margin-right: 70px;
+    margin-left: 166px;
+    margin-right: 0;
 }
 
 .top-menu  a {
@@ -109,8 +118,8 @@ body {
     min-height: 352px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 80px;
-    margin-bottom: 160px;
+    padding-top: 79px;
+    margin-bottom: 111px;
     font-size: 0;
 }
 
@@ -124,21 +133,21 @@ body {
     width: 256px;
     height: 86px;
     margin: 0 auto 50px;
-    
+    background-position: -102px -2px;    
 }
 
 .logo-name {
     width: 458px;
     height: 82px;
     margin: 0 auto 53px;
-    background-position: 0px -138px;
+    background-position: -1px -138px;
 }
 
 .logo-description {
     width: 300px;
     height: 90px;
     margin: 0 auto 56px;
-    background-position: -77px -272px;
+    background-position: -80px -273px;
 }
 
 .features {
@@ -162,6 +171,7 @@ body {
 }
 
 .features-discription p {
+    padding-top: 10px;
     font-size: 14px;
     line-height: 26px;
     color: #333333;
@@ -181,20 +191,20 @@ body {
     position: relative;
     display: block;
     padding-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 55px;
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
-    padding-left: 115px;
-    padding-right: 115px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 
 .reason-top p { 
-   padding: 10px 50px;
+   padding: 7px 50px;
 }
 
 .reason-number {
-    padding-top: 20px;
+    padding-top: 13px;
 }
 
 .reason-number::before {
@@ -213,7 +223,7 @@ body {
     height: 1px;
     width: 100%;
     background: #ffffff;
-    top: 31px;
+    top: 24px;
 }
 
 .reason-number span {
@@ -239,27 +249,31 @@ body {
     width: 290px;
     min-height: 165px;
     text-align: center;
-    padding-top: 150px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-top: 139px;
 }
 
 .some-reason:nth-child(1) {
     background: url("../img/house-normal.png") no-repeat;
-    background-position: 162px 60px;
+    background-position: 161px 56px;
+    padding-left: 54px;
     
 }
 
 .some-reason:nth-child(2) {
     background: url("../img/burger-normal.png") no-repeat;
-    background-position: 162px 60px;
-    
+    background-position: 218px 57px;
+    padding-left: 110px;
 }
-
+   
 .some-reason:last-child {
     margin-right: 0;
     background: url("../img/present-normal.png") no-repeat;
-    background-position: 168px 60px;
+    background-position: 223px 52px;
+    padding-left: 110px;
+}
+
+.some-reason p {
+    padding-top: 5px;
 }
 
 .reason-name {
@@ -271,7 +285,7 @@ body {
 .reason-botom {
     float: right;
     width: 400px;
-    min-height: 256px;
+    height: 256px;
     text-align: center;
     background: #81b3d2;
     color: #ffffff;
@@ -280,13 +294,14 @@ body {
 .last-reason {
     float: left;
     width: 400px;
-    min-height: 210px;
-    padding-top: 45px;
+    min-height: 226px;
+    padding-top: 24px;
     text-align: center;
     background: #eeeeee;
 }
 
 .last-reason p {
+    padding-top: 6px;
     margin-left: 65px;
     margin-right: 65px;
 }
@@ -295,8 +310,9 @@ body {
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
-    padding-left: 135px;
+    padding-left: 134px;
     padding-right: 135px;
+    padding-bottom: 7px;
 }
 
 .last-reason:last-child {
@@ -330,18 +346,20 @@ body {
 
 .reason-bg {
     background: #eeeeee;
+    margin-top: 22px;
 }
 
  .search-title {
-     padding-top: 50px;
+     padding-top: 32px;
      text-align: center;
-     padding-bottom: 50px;
+     padding-bottom: 35px;
 }
 
 .search-title h2{
     font-size: 30px;
     line-height: 24px;
     font-weight: bold;
+    padding-bottom: 7px;
 }
 
 .search-content {
@@ -377,7 +395,7 @@ body {
     display: none;
     width: 514px;
     min-height: 340px;
-    padding-top: 60px;
+    padding-top: 52px;
     padding-left: 56px;
     background: #ffffff;
     font-family: "PT Sans";
@@ -414,7 +432,7 @@ body {
 }
 
 .appointment-form fieldset {
-    margin: 0 0 10px;
+    margin: 0 0 8px;
     position: relative;
 } 
 
@@ -433,6 +451,7 @@ body {
     width: 113px;
     height: 38px;
     line-height: 38px;
+    text-align: justify;
 }
 
 .appointment-form input { 
@@ -605,20 +624,22 @@ body {
 
 .main-footer {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-box {
-    min-height: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    min-height: 120px;
     background: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-contacts {
     float: left;
     width: 240px;
-    padding-left: 70px;
-    padding-top: 13px;
+    padding-left: 80px;
+    padding-top: 49px;
     text-align: center;
     text-decoration: none;
     font-size: 21px;
@@ -639,7 +660,8 @@ body {
 .footer-social {
     float: left;
     width: 400px;
-    padding-left: 88px;
+    padding-left: 78px;
+    padding-top: 37px;
     text-align: center;
 }
 
@@ -647,7 +669,7 @@ body {
     display: inline-block;
     width: 46px;
     height: 48px;
-    margin: 0 2px;
+    margin: 0 1px;
     font-size: 0;
     vertical-align: top;
     text-decoration: none;
@@ -705,7 +727,8 @@ body {
 .footer-copyright {
     float: right;
     width: 240px;
-    padding-right: 70px;
+    padding-right: 76px;
+    padding-top: 28px;
     font-size: 14px;
     line-height: 26px; 
     text-align: center;
@@ -716,7 +739,7 @@ body {
     width: 115px;
     height: 41px;
     margin: 0 12px;
-    background: url("../img/academy-image.png") no-repeat center;
+    background: #ffffff url("../img/academy-image.png") no-repeat center;
     vertical-align: middle;
     background-position: 0 0px;
 }
@@ -732,21 +755,22 @@ body {
 /*Елементы страицы catalog*/
 
 .search-form {
-    min-height: 220px;
+    height: 220px;
+    margin: 0;
+    padding: 0;
 }
 
 .point {
     float: left;
     border: 0;
-    width: 140px;
+    width: 150px;
     line-height: 35px;
-    margin-top: 30px;
     margin-left: 60px;
-    margin-right: 20px;
+    margin-top: 27px;
+    margin-right: 28px;
 }
 
 .point legend {
-    margin-bottom: 25px;
     font-family: "PT Sans";
     font-size: 16px;
     line-height: 21px;
@@ -766,7 +790,7 @@ body {
 
 .point label {
     display: block;
-    margin-left: 5px;
+    margin: 22px 3px 0;
     padding: 0 0 0 40px;
     position: relative;
     cursor: pointer;
@@ -806,12 +830,12 @@ body {
     opacity: .3;
 }
 
-
 .day-cost {
     float:right;
-    width: 330px;
+    width: 320px;
     border: 0;
     margin-right: 70px;
+    padding: 0;
 }
 
 .day-cost legend {
@@ -823,7 +847,7 @@ body {
 }
 
 .filter-range {
-    margin: 30px auto; 
+    margin: 27px auto; 
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -833,12 +857,13 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
+    margin-left: -10px;
 }
 
 .price-controls {
     position: relative;
     height: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-size: 0;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -921,8 +946,8 @@ body {
 
 .btn-transparent {
     display: block;
-    margin: 0 auto;
-    padding: 6px 35px;
+    margin-left: 85px;
+    padding: 5px 30px;
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
@@ -940,7 +965,7 @@ body {
 }
 
 .found {
-    min-height: 90px;
+    min-height: 85px;
     background: #ffffff;
     border-bottom: #e5e5e5 solid 1px;
 }
@@ -948,7 +973,7 @@ body {
 .found-sum {
     float: left;
     margin-left: 70px;
-    padding-top: 35px;
+    padding-top: 27px;
 }
 
 .found-sum span {
@@ -960,8 +985,8 @@ body {
 .found-sort {
     width: 500px;
     float: left;
-    margin-left: 5px;
-    margin-top: 23px;
+    margin-left: 10px;
+    margin-top: 17px;
 }
 
 .found-title {
@@ -987,6 +1012,7 @@ body {
 
 .found-sort li {
     display: inline-block;
+    vertical-align: top;
     list-style: none;
 }
 
@@ -1001,7 +1027,19 @@ body {
 }
 
 .found-sort li:first-child {
-    margin-right: 34px;
+    margin-right: 36px;
+}
+
+.found-sort li:nth-child(2) {
+    margin-right: 5px;
+}
+
+.found-sort li:nth-child(2) {
+    margin-right: 5px;
+}
+
+.found-sort li:nth-child(3) {
+    margin-right: 5px;
 }
 
 .found-sort .active {
@@ -1076,8 +1114,8 @@ body {
 
 .mini-image {
     float: left;
-    padding-left: 70px;
-    padding-top: 30px;
+    padding-left: 71px;
+    padding-top: 29px;
 }
 
 .show-result {
@@ -1087,25 +1125,24 @@ body {
 }
 
 .result-found {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .result-title {
     float: left;
     width: 325px;
     margin-left: 30px;
-    margin-top: 27px;
+    margin-top: 23px;
     min-height: 90px;
 }
 
 .info {
     display: inline-block;
     width: 110px;
-    height: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-right: 5px;
+    height: 26px;
+    margin-right: 2px;
     text-align: center;
+    vertical-align: top;
     text-decoration: none;
     background: #81b3d2;
 }
@@ -1122,12 +1159,11 @@ body {
 
 .book-room {
     display: inline-block;
-    width: 140px;
-    height: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 142px;
+    height: 26px;
     text-align: center;
     text-decoration: none;
+    vertical-align: top;
     background: #766357;
 }
 
@@ -1150,7 +1186,7 @@ body {
 
 .typen-cost {
     margin-right: 0px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .type {
@@ -1169,16 +1205,17 @@ body {
    font-size: 14px;
    line-height: 21px; 
    color: #333333;
+    margin-right: -5px;
 }
 
 .more-block {
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .count-block  {
     float: right;
-    margin-right: 70px;
-    margin-top: 30px;
+    margin-right: 73px;
+    margin-top: 28px;
 }
 
 .star-count {
@@ -1192,22 +1229,19 @@ body {
     height: 16px;
     width: 16px;
     margin: 0 0 0 8px;
-    background: url("../img/star.png") no-repeat ;
+    background: #ffffff url("../img/star.png") no-repeat ;
 }
 
 .number-raiting {
-    width: 140px;
-    height: 20px;
-    margin-top: 40px;
+    width: 110px;
+    height: 27px;
+    margin-top: 49px;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
     background: #f2f2f2;
     font-family: "PT Sans";
     font-size: 14px;
     line-height: 21px; 
     color: #666666; 
-    color: #666666;
 }
 
 .title {
