@@ -60,7 +60,7 @@ body {
 }
 
 .top-menu li:nth-child(2) {
-    margin-right: 122px;
+    margin-right: 123px;
 }
 
 .top-menu li:nth-child(3) {
@@ -133,21 +133,21 @@ body {
     width: 256px;
     height: 86px;
     margin: 0 auto 50px;
-    background-position: -102px -2px;    
+    background-position: -100px -2px;    
 }
 
 .logo-name {
     width: 458px;
     height: 82px;
     margin: 0 auto 53px;
-    background-position: -1px -138px;
+    background-position: 0px -138px;
 }
 
 .logo-description {
     width: 300px;
     height: 90px;
     margin: 0 auto 56px;
-    background-position: -80px -273px;
+    background-position: -79px -273px;
 }
 
 .features {
@@ -171,7 +171,7 @@ body {
 }
 
 .features-discription p {
-    padding-top: 10px;
+    padding-top: 11px;
     font-size: 14px;
     line-height: 26px;
     color: #333333;
@@ -233,7 +233,7 @@ body {
 }
 
 .reason-botom p {
-    padding: 10px 50px;
+    padding: 7px 50px;
 }
 
 .rlogo-top {
@@ -254,21 +254,21 @@ body {
 
 .some-reason:nth-child(1) {
     background: url("../img/house-normal.png") no-repeat;
-    background-position: 161px 56px;
-    padding-left: 54px;
+    background-position: 162px 55px;
+    padding-left: 55px;
     
 }
 
 .some-reason:nth-child(2) {
     background: url("../img/burger-normal.png") no-repeat;
-    background-position: 218px 57px;
+    background-position: 218px 56px;
     padding-left: 110px;
 }
    
 .some-reason:last-child {
     margin-right: 0;
     background: url("../img/present-normal.png") no-repeat;
-    background-position: 223px 52px;
+    background-position: 223px 51px;
     padding-left: 110px;
 }
 
@@ -295,7 +295,7 @@ body {
     float: left;
     width: 400px;
     min-height: 226px;
-    padding-top: 24px;
+    padding-top: 23px;
     text-align: center;
     background: #eeeeee;
 }
@@ -346,13 +346,13 @@ body {
 
 .reason-bg {
     background: #eeeeee;
-    margin-top: 22px;
+    margin-top: 21px;
 }
 
  .search-title {
      padding-top: 32px;
      text-align: center;
-     padding-bottom: 35px;
+     padding-bottom: 20px;
 }
 
 .search-title h2{
@@ -370,7 +370,7 @@ body {
     width: 576px;
     height: 560px;
     position: relative;
-    margin-left: auto;
+    margin-left: 315px;
     margin-right: auto;
     font-size: 14px;
     line-height: 24px;
@@ -385,7 +385,7 @@ body {
      background: url("../img/botom-bg.jpg") no-repeat 50% ;
      position: absolute;
      background-position: bottom right;
-     top: 10px;
+     top: 7px;
      z-index: 0;
     }    
 
@@ -395,8 +395,8 @@ body {
     display: none;
     width: 514px;
     min-height: 340px;
-    padding-top: 52px;
-    padding-left: 56px;
+    padding-top: 55px;
+    padding-left: 55px;
     background: #ffffff;
     font-family: "PT Sans";
     font-size: 14px;
@@ -591,9 +591,8 @@ body {
 }
 
 .form-title {
-    width: 570px;
-    min-height: 75px;
-    padding-top: 15px;
+    width: 568px;
+    height: 86px;
     background: #766357;
     color: #000000;
     cursor: pointer;
@@ -605,6 +604,7 @@ body {
     line-height: 26px;
     font-weight: bold;
     color: #ffffff;
+    padding-top: 30px;
 }
 
 .toggle-button:hover {
@@ -639,7 +639,7 @@ body {
     float: left;
     width: 240px;
     padding-left: 80px;
-    padding-top: 49px;
+    padding-top: 47px;
     text-align: center;
     text-decoration: none;
     font-size: 21px;
@@ -660,8 +660,8 @@ body {
 .footer-social {
     float: left;
     width: 400px;
-    padding-left: 78px;
-    padding-top: 37px;
+    padding-left: 79px;
+    padding-top: 35px;
     text-align: center;
 }
 
@@ -727,8 +727,8 @@ body {
 .footer-copyright {
     float: right;
     width: 240px;
-    padding-right: 76px;
-    padding-top: 28px;
+    padding-right: 75px;
+    padding-top: 27px;
     font-size: 14px;
     line-height: 26px; 
     text-align: center;
@@ -766,7 +766,7 @@ body {
     width: 150px;
     line-height: 35px;
     margin-left: 60px;
-    margin-top: 27px;
+    margin-top: 26px;
     margin-right: 28px;
 }
 
@@ -1220,7 +1220,7 @@ body {
 
 .count-block  {
     float: right;
-    margin-right: 74px;
+    margin-right: 73px;
     margin-top: 29px;
 }
 
