@@ -48,7 +48,7 @@ body {
 
 .top-menu  li {
     display: inline-block;
-    font: 700 14px/3.93 "PT Sans", sans-serif;
+    font: 700 14px/3.93 "PT Sans", "Arial", sans-serif;
     text-align: center;
     vertical-align:top;
     white-space: nowrap;
@@ -126,28 +126,28 @@ body {
 .logo-title,
 .logo-name,
 .logo-description {
-    background: url("../img/main-logon.png") no-repeat 50% 1px;
+    background: url("../img/main-sprite.png") no-repeat 50% 1px;
 }
 
 .logo-title {
     width: 256px;
     height: 86px;
     margin: 0 auto 50px;
-    background-position: -100px -2px;    
+    background-position: -443px -2px;    
 }
 
 .logo-name {
     width: 458px;
     height: 82px;
     margin: 0 auto 53px;
-    background-position: 0px -138px;
+    background-position: -342px -138px;
 }
 
 .logo-description {
     width: 300px;
     height: 90px;
     margin: 0 auto 56px;
-    background-position: -79px -273px;
+    background-position: -421px -273px;
 }
 
 .features {
@@ -253,22 +253,22 @@ body {
 }
 
 .some-reason:nth-child(1) {
-    background: url("../img/house-normal.png") no-repeat;
-    background-position: 162px 55px;
+    background: url("../img/main-sprite.png") no-repeat;
+    background-position: 162px 54px;
     padding-left: 55px;
     
 }
 
 .some-reason:nth-child(2) {
-    background: url("../img/burger-normal.png") no-repeat;
-    background-position: 218px 56px;
+    background: url("../img/main-sprite.png") no-repeat;
+    background-position: 212px -500px;
     padding-left: 110px;
 }
    
 .some-reason:last-child {
     margin-right: 0;
-    background: url("../img/present-normal.png") no-repeat;
-    background-position: 223px 51px;
+    background: url("../img/main-sprite.png") no-repeat;
+    background-position: 217px -226px;
     padding-left: 110px;
 }
 
@@ -368,7 +368,6 @@ body {
 
 .search-box {
     width: 576px;
-    height: 560px;
     position: relative;
     margin-left: 315px;
     margin-right: auto;
@@ -380,25 +379,24 @@ body {
 }
 
  .map {
-     height: 560px;
+     height: 473px;
      width: 1200px;
-     background: url("../img/botom-bg.jpg") no-repeat 50% ;
-     position: absolute;
-     background-position: bottom right;
-     top: 7px;
+     background: #ffffff url("../img/botom-bg.jpg") no-repeat 50% ;
+     background-position: 0 -1px;
      z-index: 0;
     }    
 
  /*-----------Форма поиска------------------*/ 
 
 .appointment-form {
+    position: absolute;
     display: none;
     width: 514px;
     min-height: 340px;
     padding-top: 55px;
     padding-left: 55px;
     background: #ffffff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
@@ -441,7 +439,7 @@ body {
     display: block;
     outline: 0;
     float: left;
-    font: 700 14px/1.5 "PT Sans", sans-serif;
+    font: 700 14px/1.5 "PT Sans", "Arial", sans-serif;
     color: #000000;
     text-transform: uppercase;
     cursor: pointer;
@@ -481,7 +479,7 @@ body {
     width: 21px;
     height: 22px;
     margin: -11px 0 0;
-    background: url("../img/calendar.png") no-repeat 0 0;
+    background: url("../img/main-sprite.png") no-repeat -749px -685px;
     right: -430px;
     top: -32px;
     cursor: pointer;
@@ -489,11 +487,11 @@ body {
 }
 
 .chose-date:hover::after { 
-    background-position: 0px -39px;
+    background-position: -749px -724px;
 }
 
 .chose-date:active::after { 
-    background-position: 0px -77px;
+    background-position: -749px -762px;
 }
 
 .appointment-form input::-webkit-input-placeholder { 
@@ -599,7 +597,7 @@ body {
 }
 
 .form-title h2 {
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -673,7 +671,7 @@ body {
     font-size: 0;
     vertical-align: top;
     text-decoration: none;
-    background: #81b3d2 url("../img/social-icons.png") no-repeat center;
+    background: #81b3d2 url("../img/main-sprite.png") no-repeat center;
 }
 
 .social-btn:hover {
@@ -685,43 +683,43 @@ body {
 }
 
 .social-btn-tw  {
-    background-position: 10px;
+    background-position: -311px -749px;
 }
 
 .social-btn-fb {
-    background-position: -43px;
+    background-position: -364px -749px;
 }
 
 .social-btn-ytb {
-    background-position: -94px;
+    background-position: -415px -749px;
 }
 
 .social-btn-tw:hover  {
-    background-position: 10px;
+    background-position: -311px -749px;
 }
 
 .social-btn-fb:hover {
-    background-position: -43px;
+    background-position: -364px -749px;
 }
 
 .social-btn-ytb:hover {
-    background-position: -94px;
+    background-position: -415px -749px;
 }
 
 .social-btn-tw:active  {
-    background-position: 10px;
+    background-position: -311px -749px;
 }
 
 .social-btn-fb:active  {
-    background-position: 10px;
+    background-position: -364px -749px;
 }
 
 .social-btn-fb:active {
-    background-position: -43px;
+    background-position: -364px -749px;
 }
 
 .social-btn-ytb:active {
-    background-position: -95px;
+    background-position: -415px -749px;
 }
 
 .footer-copyright {
@@ -739,17 +737,17 @@ body {
     width: 115px;
     height: 41px;
     margin: 0 12px;
-    background: #ffffff url("../img/academy-image.png") no-repeat center;
+    background: #ffffff url("../img/main-sprite.png") no-repeat center;
     vertical-align: middle;
-    background-position: 0 0px;
+    background-position: -326px -444px;
 }
 
 .domain:hover {
-    background-position: 0 -48px;
+    background-position: -326px -492px;
 }
 
 .domain:active {
-    background-position: 0 -95px;
+    background-position: -326px -539px;
 }
 
 /*Елементы страицы catalog*/
@@ -767,11 +765,11 @@ body {
     line-height: 35px;
     margin-left: 60px;
     margin-top: 26px;
-    margin-right: 28px;
+    margin-right: 29px;
 }
 
 .point legend {
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 16px;
     line-height: 21px;
     font-weight: bold;
@@ -794,7 +792,7 @@ body {
     padding: 0 0 0 40px;
     position: relative;
     cursor: pointer;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
     color: #ffffff; 
@@ -803,7 +801,7 @@ body {
 .point label::before {
     width: 23px;
     height: 22px;
-    background: url("../img/check.png") no-repeat -4px 0;
+    background: url("../img/main-sprite.png") no-repeat -650px -760px;
     border-radius: 5px;
     opacity: .3;
     left: 0;
@@ -818,7 +816,7 @@ body {
 }
 
 .point input:checked+label::before { 
-    background: url("../img/check.png") no-repeat -40px 0;
+    background: url("../img/main-sprite.png") no-repeat -686px -760px;
     opacity: 1;
 }
 
@@ -839,7 +837,7 @@ body {
 }
 
 .day-cost legend {
-   font-family: "PT Sans";
+   font-family: "PT Sans", "Arial", sans-serif;
    font-size: 16px;
    line-height: auto;
    font-weight: bold; 
@@ -888,10 +886,14 @@ body {
     cursor: pointer;
 }
 
-.price-controls .min-price,
-.price-controls .max-price {
+.price-controls .min-price {
     width: 90px;
     padding-left: 65px;
+}
+
+.price-controls .max-price {
+    width: 90px;
+    padding-left: 57px;
 }
 
 .price-controls input {
@@ -1120,7 +1122,7 @@ body {
 
 .mini-image {
     float: left;
-    padding-left: 71px;
+    padding-left: 72px;
     padding-top: 30px;
 }
 
@@ -1137,7 +1139,7 @@ body {
 .result-title {
     float: left;
     width: 325px;
-    margin-left: 30px;
+    margin-left: 31px;
     margin-top: 24px;
     min-height: 90px;
 }
@@ -1207,7 +1209,7 @@ body {
 
 
 .type, .total-from {
-   font-family: "PT Sans";
+   font-family: "PT Sans", "Arial", sans-serif;
    font-size: 14px;
    line-height: 21px; 
    color: #333333;
@@ -1232,19 +1234,20 @@ body {
 
 .star {
     display: inline-block;
+    vertical-align:top;
     height: 16px;
     width: 16px;
     margin: 0 0 0 8px;
-    background: #ffffff url("../img/star.png") no-repeat ;
+    background: #ffffff url("../img/main-sprite.png") no-repeat -752px -546px;
 }
 
 .number-raiting {
     width: 110px;
     height: 27px;
-    margin-top: 49px;
+    margin-top: 50px;
     text-align: center;
     background: #f2f2f2;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 22px; 
     color: #666666; 
